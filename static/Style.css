@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: #2864e6;
+}
+/*
+* Formatting the header area
+*/
+header{
+    background-color: rgb(19, 184, 235);
+    height: 45px;
+    width: 100%;
+    /*opacity:0.9;*/
+    margin-top: 10px;
+}
+header h1.logo{
+    margin: 0;
+    font-size: 1.9em;
+    color: rgb(45, 214, 163);
+    text-transform: uppercase;
+    float: left;
+}
+header h1.logo:hover{
+    color: darkblue;
+    text-decoration: rgb(25, 28, 231);
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+div.home{
+    padding: 0cm;
+    background-color: rgb(19, 182, 223);
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+        border-radius: 6px;
+}
+div.about{
+    padding: 10px;
+    background-color: rgb(71, 223, 250);
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+         border-radius: 6px;
+
+}
+h2 {
+    font-size:3cm;
+    margin-top: 40px;
+    text-align:center;
+    letter-spacing: -2px;
+}
+h3{
+    font-size: 1.7cm;
+    font-weight: 100;
+    margin-top: 30px;
+    text-align: center;
+    letter-spacing: -1px;
+    color:rgb(14, 166, 236);
+
+}
+.menu{
+    float:right;
+    margin-top: 8px;
+}
+.menu li{
+    display: inline;
+}
+.menu li+li{
+    margin-left: 35px;
+}
+.menu li a{
+    color:rgb(91, 14, 235);
+    text-decoration: rgb(148, 7, 212);
+}
